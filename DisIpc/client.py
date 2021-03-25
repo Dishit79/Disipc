@@ -4,7 +4,7 @@ import aiohttp
 
 
 class IpcClient:
-    def __init__(self, port:int = 8080, host='localhost',key):
+    def __init__(self, key, port:int = 8080, host='localhost'):
 
         self.url= f'ws://{host}:{port}/'
         self.key = key

@@ -19,7 +19,7 @@ class IpcServer():
 
     cogendpoints={}
 
-    def __init__(self, client, port:int = 8080, host='localhost',key):
+    def __init__(self, client, key, port:int = 8080, host='localhost'):
 
         self.client = client
         self.loop = client.loop
