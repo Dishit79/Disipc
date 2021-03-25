@@ -2,7 +2,7 @@
 
 `pip install git+https://github.com/Dishit79/DisIpc.git#egg=disipc`
 
-##Bot
+## Bot
 ```py
 import discord
 from discord.ext import commands
@@ -24,7 +24,7 @@ ipc.start()
 client.run("TOKEN")
 ```
 
-##Client
+## Client
 ```py
 from quart import Quart
 from DisIpc import client
