@@ -1,6 +1,6 @@
 # DisIpc
 
-`pip install git+https://github.com/Dishit79/DisIpc.git#egg=disipc`
+`pip install git+https://github.com/Dishit79/disipc.git#egg=disipc`
 
 ## Bot
 ```py
