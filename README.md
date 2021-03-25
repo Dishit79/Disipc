@@ -41,3 +41,6 @@ if __name__ == "__main__":
     app.run()
 
 ```
+Todo: 
+1. Add error handling 
+2. Make doc? 
