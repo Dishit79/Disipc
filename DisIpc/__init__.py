@@ -1,2 +1,2 @@
 from .server import IpcServer
-from .client import IpcClientIpc
+from .client import IpcClient
