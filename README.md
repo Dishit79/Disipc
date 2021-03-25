@@ -6,7 +6,7 @@
 ```py
 import discord
 from discord.ext import commands
-from DisIpc import server
+from disipc import server
 
 client = commands.Bot(command_prefix="!", intents=discord.Intents.all())
 ipc = server.IpcServer(client, key='key')
@@ -27,7 +27,7 @@ client.run("TOKEN")
 ## Client
 ```py
 from quart import Quart
-from DisIpc import client
+from disipc import client
 
 app = Quart(__name__)
 ipc = client.IpcClient(key="key")

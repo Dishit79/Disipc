@@ -17,7 +17,7 @@ setuptools.setup(
     description="An easy to use discord python ipc server and client",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/Dishit79/DisIpc",
+    url="https://github.com/Dishit79/disipc",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
